@@ -10,6 +10,11 @@ Version
 =================
 2.0
 
+Log
+=================
+新增加sign和verify的支持
+
+
 OpenSSL stuff
 =================
 These two links will help to build your openssl support lib.
