@@ -12,6 +12,8 @@ Version
 
 Log
 =================
+更新openssl到最新版的 1.0.2a （ i386、x86_64、armv7、armv7s、arm64）
+
 新增加sign和verify的支持
 
 
