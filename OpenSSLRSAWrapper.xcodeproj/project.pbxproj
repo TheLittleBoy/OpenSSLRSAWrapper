@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		041BB69E1AC3F1C50084CE82 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 041BB69C1AC3F1C50084CE82 /* libcrypto.a */; };
 		041BB69F1AC3F1C50084CE82 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 041BB69D1AC3F1C50084CE82 /* libssl.a */; };
+		042204971AC51F5A00BE7F9E /* 生成命令.txt in Resources */ = {isa = PBXBuildFile; fileRef = 042204961AC51F5A00BE7F9E /* 生成命令.txt */; };
 		8C729A9916173BAC00AD70C6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C729A9616173BAC00AD70C6 /* NSData+Base64.m */; };
 		8C729A9A16173BAC00AD70C6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C729A9816173BAC00AD70C6 /* NSString+Base64.m */; };
 		8CADA32E1616A4530037D398 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8CADA32D1616A4530037D398 /* README.md */; };
@@ -105,6 +106,7 @@
 		041BB6E91AC3F1C90084CE82 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
 		041BB6EA1AC3F1C90084CE82 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
 		041BB6EB1AC3F1C90084CE82 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		042204961AC51F5A00BE7F9E /* 生成命令.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "生成命令.txt"; sourceTree = "<group>"; };
 		8C729A9516173BAC00AD70C6 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		8C729A9616173BAC00AD70C6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		8C729A9716173BAC00AD70C6 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
@@ -311,6 +313,7 @@
 		8CEF56C3161607A50001C28B /* openssl-iibs */ = {
 			isa = PBXGroup;
 			children = (
+				042204961AC51F5A00BE7F9E /* 生成命令.txt */,
 				041BB6A01AC3F1C90084CE82 /* openssl */,
 				041BB69C1AC3F1C50084CE82 /* libcrypto.a */,
 				041BB69D1AC3F1C50084CE82 /* libssl.a */,
@@ -375,6 +378,7 @@
 				8CEF56B6161607690001C28B /* Default-568h@2x.png in Resources */,
 				8CADA32E1616A4530037D398 /* README.md in Resources */,
 				8CADA3F11616DD740037D398 /* ViewController.xib in Resources */,
+				042204971AC51F5A00BE7F9E /* 生成命令.txt in Resources */,
 				8CADA3F81616EA2F0037D398 /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
